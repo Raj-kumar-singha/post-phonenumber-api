@@ -1,8 +1,25 @@
-# React + Vite
+# post-phonenumber-api
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project topic
 
-Currently, two official plugins are available:
+1. Post data to API endpoint: https://chimpu.online/api/post.php
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Only variable to post: phonenumber  
+
+3. Once you post data to the above endpoint with the mentioned variable you’ll receive data in headers. 
+
+4. You will have to print the data received in headers on the page (API will return customized data from
+chimpu.online)
+
+
+## Setup
+
+1. Clone the repository.
+2. Install the dependencies by running 
+```
+npm install
+```
+3. Start the server using 
+```
+npm run dev
+```
